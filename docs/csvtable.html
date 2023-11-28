@@ -116,12 +116,10 @@
 <h1 id="csv-tables">CSV tables</h1>
 <p>The CSV table can be imported with the help of the Mkdocs <strong>table-reader</strong> plugin.</p>
 <h2 id="csv-table-import">CSV table import</h2>
-<p>Markdown syntax
-<div class="highlight"><pre><span></span><code>|   A |   B |   C |
-|----:|----:|----:|
-|   1 |   2 |   3 |
-|   4 |   5 |   6 |
-</code></pre></div></p>
+<p>Markdown syntax</p>
+<blockquote>
+<p>{{ read_csv('./assets/data/table.csv') }}</p>
+</blockquote>
 <hr/>
 <table class="table">
 <thead>
