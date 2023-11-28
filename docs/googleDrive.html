@@ -6,7 +6,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="img/favicon.ico" rel="shortcut icon"/>
-<title>Bootstrap - Template</title>
+<title>Google Drive - Template</title>
 <link href="css/theme.css" rel="stylesheet"/>
 <link href="css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
@@ -16,8 +16,8 @@
 <link href="termynal.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Bootstrap";
-        var mkdocs_page_input_path = "bootstrap.md";
+        var mkdocs_page_name = "Google Drive";
+        var mkdocs_page_input_path = "googleDrive.md";
         var mkdocs_page_url = null;
       </script>
 <script defer="" src="js/jquery-3.6.0.min.js"></script>
@@ -53,8 +53,8 @@
 <li class="toctree-l1"><a class="reference internal" href="miscellaneous.html">Miscellaneous</a>
 </li>
 </ul>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal current" href="bootstrap.html">Bootstrap</a>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bootstrap.html">Bootstrap</a>
 </li>
 </ul>
 <ul>
@@ -101,8 +101,8 @@
 <li class="toctree-l1"><a class="reference internal" href="wavedrom.html">Wavedrom</a>
 </li>
 </ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="googleDrive.html">Google Drive</a>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal current" href="googleDrive.html">Google Drive</a>
 </li>
 </ul>
 </div>
@@ -117,7 +117,7 @@
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
 <ul class="wy-breadcrumbs">
 <li><a alt="Docs" class="icon icon-home" href="index.html"></a> »</li>
-<li>Bootstrap</li>
+<li>Google Drive</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -125,56 +125,51 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="bootstrap-framework">Bootstrap framework</h1>
-<p><strong><em>Bootstrap</em></strong> is a popular <strong><em>CSS Framework</em></strong> for developing responsive websites.<br/>
-<a href="https://getbootstrap.com/">Bootstrap guide</a></p>
-<p>Inline html with bootstrap examples.</p>
-<h2 id="icons">Icons</h2>
-<p><i class="bi bi-calendar3"></i> <i class="bi bi-chat-right-dots"></i><br/>
-<i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i></p>
-<h2 id="accordion">Accordion</h2>
-<div class="accordion" id="accordionExample">
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button aria-controls="collapseOne" aria-expanded="true" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
-        Accordion Item #1
-      </button>
-</h2>
-<div class="accordion-collapse collapse show" data-bs-parent="#accordionExample" id="collapseOne">
-<div class="accordion-body">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-</div>
-</div>
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button aria-controls="collapseTwo" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseTwo" data-bs-toggle="collapse" type="button">
-        Accordion Item #2
-      </button>
-</h2>
-<div class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseTwo">
-<div class="accordion-body">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-</div>
-</div>
-<div class="accordion-item">
-<h2 class="accordion-header">
-<button aria-controls="collapseThree" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapseThree" data-bs-toggle="collapse" type="button">
-        Accordion Item #3
-      </button>
-</h2>
-<div class="accordion-collapse collapse" data-bs-parent="#accordionExample" id="collapseThree">
-<div class="accordion-body">
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-</div>
-</div>
-</div>
-<h2 id="buttons">Buttons</h2>
-<p><button class="btn btn-success" id="myButtonSuccess" type="button">Success</button>
-<button class="btn btn-primary" id="myButtonPrimary" type="button">Primary</button>
-<button class="btn btn-secondary" id="myButtonSecondary" type="button">Secondary</button></p>
+<h1 id="google-drive"><img src="./assets/images/GoogleDrive.png" width="50"/> Google Drive</h1>
+<p>You can add links to <strong>Google Drive</strong> images, html files and documents.</p>
+<h2 id="google-drive-image">Google Drive image</h2>
+<p>To display a Google Drive image in your Markdown file, use the following url pattern.</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://drive.google.com/uc?export=view&amp;id=xxxxx"</span> <span class="na">alt</span><span class="o">=</span><span class="s">""</span> <span class="na">width</span><span class="o">=</span><span class="s">"80"</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Replace <strong><em>xxxxx</em></strong> with the id of your Google Drive image and adapt the size.</p>
+<p>Example</p>
+<p><img alt="" src="https://drive.google.com/uc?export=view&amp;id=12HkBMMmo5zcvnlVbw00DAtPbgjs2SKTd" width="80"/></p>
+<hr/>
+<h2 id="google-drive-pdf-file">Google Drive pdf file</h2>
+<p>To display a Google Drive pdf file content in your Markdown file, use the following url pattern</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span>
+<span class="na">width</span><span class="o">=</span><span class="s">"800"</span> <span class="na">height</span><span class="o">=</span><span class="s">"600"</span>
+<span class="na">src</span><span class="o">=</span><span class="s">"https://drive.google.com/file/d/xxxxx/preview"</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Replace <strong><em>xxxxx</em></strong> with the id of your Google Drive pdf file.</p>
+<p>Example</p>
+<p><iframe height="600" src="https://drive.google.com/file/d/1b8WC8eD5ibTp2bIun_V3rCXkoZWp4MYw/preview" width="800">
+</iframe>
+</p>
+<hr/>
+<h2 id="google-drive-folder">Google Drive folder</h2>
+<p>To display a <strong><em>Google Drive</em></strong> folder content in your Markdown file, use the following url pattern.</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">iframe</span>
+<span class="na">width</span><span class="o">=</span><span class="s">"600"</span> <span class="na">height</span><span class="o">=</span><span class="s">"400"</span>
+<span class="na">src</span><span class="o">=</span><span class="s">"https://drive.google.com/embeddedfolderview?id=xxxxx"</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Replace <strong><em>xxxxx</em></strong> with the id of your Google Drive folder.</p>
+<p>Example</p>
+<p><iframe height="600" src="https://drive.google.com/embeddedfolderview?id=1FitYttGfmum1SGu5NWy1VzDqXIA1fXaJ" width="800">
+</iframe>
+</p>
+<hr/>
+<h2 id="google-sheet">Google Sheet</h2>
+<p>To embed a <strong><em>Google Sheet</em></strong> content in your Markdown file, use the publish to the web function and adapt the size.</p>
+<p>Example</p>
+<iframe height="200" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzJ-W4W0uDrlB5eCLfpBeVVmiDF__oI1ZtKRp0vhNzhyt4YhpFamo2ZaGxADmccWBxmG7l4MN1aLxZ/pubhtml?widget=true&amp;headers=false" width="400"></iframe>
+<hr/>
+<h2 id="google-doc">Google Doc</h2>
+<p>To embed a <strong><em>Google Doc</em></strong> content in your Markdown file, use the publish to the web function and adapt the size.</p>
+<p>Example</p>
+<iframe height="600" src="https://docs.google.com/document/d/e/2PACX-1vTrgo_Wm2TXR1UhcSjgxaky6VwWxUkSSjrPEGgpqRNO4ya4rm1fnqv9IsdNBtP-DaZsPgDLM2mMRKCq/pub?embedded=true" width="800"></iframe>
 </div>
 </div><footer>
 <hr/>
@@ -191,8 +186,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
-<span><a href="miscellaneous.html" style="color: #fcfcfc">« Previous</a></span>
-<span><a href="drawio.html" style="color: #fcfcfc">Next »</a></span>
+<span><a href="wavedrom.html" style="color: #fcfcfc">« Previous</a></span>
 </span>
 </div>
 <script>var base_url = '.';</script>
