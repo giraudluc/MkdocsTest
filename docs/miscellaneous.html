@@ -6,7 +6,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="img/favicon.ico" rel="shortcut icon"/>
-<title>Miscellaneous - Template</title>
+<title>Miscellaneous - Mkdocs ReadTheDocs template</title>
 <link href="css/theme.css" rel="stylesheet"/>
 <link href="css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
@@ -33,7 +33,7 @@
 <nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
 <div class="wy-side-scroll">
 <div class="wy-side-nav-search">
-<a class="icon icon-home" href="index.html"> Template
+<a class="icon icon-home" href="index.html"> Mkdocs ReadTheDocs template
         </a>
 </div>
 <div aria-label="Navigation menu" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
@@ -46,15 +46,15 @@
 </li>
 </ul>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="plantuml.html">Plantuml</a>
+</li>
+</ul>
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="codeblock.html">Code block</a>
 </li>
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal current" href="miscellaneous.html">Miscellaneous</a>
-</li>
-</ul>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="bootstrap.html">Bootstrap</a>
 </li>
 </ul>
 <ul>
@@ -111,7 +111,7 @@
 <section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
 <nav aria-label="Mobile navigation menu" class="wy-nav-top" role="navigation">
 <i class="fa fa-bars" data-toggle="wy-nav-top"></i>
-<a href="index.html">Template</a>
+<a href="index.html">Mkdocs ReadTheDocs template</a>
 </nav>
 <div class="wy-nav-content">
 <div class="rst-content"><div aria-label="breadcrumbs navigation" role="navigation">
@@ -125,22 +125,22 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="miscellaneous">Miscellaneous</h1>
+<div><h1 id="miscellaneous">Miscellaneous</h1>
 <p>Miscellaneous <strong><em>Markdown</em></strong> examples.</p>
 <h2 id="todo">Todo</h2>
-<ul>
-<li>[ ] Update ReadTheDoc documentation</li>
-<li>[ ] Smoke tests</li>
-<li>[ ] Coding</li>
-<li>[x] Design</li>
-<li>[x] Git repo creation</li>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Update ReadTheDoc documentation</li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Smoke tests</li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Coding</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Design</li>
+<li class="task-list-item"><label class="task-list-control"><input checked="" disabled="" type="checkbox"/><span class="task-list-indicator"></span></label> Git repo creation</li>
 </ul>
 <h2 id="simple-table">Simple table</h2>
-<table class="table">
+<table>
 <thead>
 <tr>
-<th scope="col">Syntax</th>
-<th scope="col">Description</th>
+<th>Syntax</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -157,11 +157,11 @@
 <h2 id="text-underline">Text underline</h2>
 <p>Some of these words <ins>will be underlined</ins>.</p>
 <h2 id="text-center">Text center</h2>
-<p><center>This text is centered.</center></p>
+<p></p><center>This text is centered.</center>
 <h2 id="text-color">Text color</h2>
 <p><font color="red">This text is red!</font></p>
 <h2 id="html-glyphs">Html glyphs</h2>
-<p>☘ ☣</p>
+<p>☘ ☣</p></div>
 </div>
 </div><footer>
 <hr/>
@@ -179,13 +179,18 @@
 <div aria-label="Versions" class="rst-versions" role="note">
 <span class="rst-current-version" data-toggle="rst-current-version">
 <span><a href="codeblock.html" style="color: #fcfcfc">« Previous</a></span>
-<span><a href="bootstrap.html" style="color: #fcfcfc">Next »</a></span>
+<span><a href="drawio.html" style="color: #fcfcfc">Next »</a></span>
 </span>
 </div>
 <script>var base_url = '.';</script>
 <script defer="" src="js/theme_extra.js"></script>
 <script defer="" src="js/theme.js"></script>
 <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script defer="" src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script defer="" src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+<script defer="" src="https://unpkg.com/markmap-lib@0.15.3/dist/browser/index.js"></script>
+<script defer="" src="https://unpkg.com/markmap-view@0.15.3/dist/browser/index.js"></script>
 <script defer="" src="termynal.js"></script>
 <script defer="">
         window.onload = function () {
